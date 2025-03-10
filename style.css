@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: white;
+
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color:#f4e4ba;
+}
+
+.imgmain{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    background: url("currencyback.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-color: rgba(28, 26, 26, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    min-height: 45vh;
+    width: 20rem;
+}
+
+
+
+form{
+    margin: 2rem 0 1rem 0;
+    color: white;
+
+}
+
+button,select,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.in{
+    margin-top: 1rem;
+    height: 5rem;
+    color: white;
+
+}
+
+.in input{
+    height: 3rem;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    padding-left: 0.75rem;
+    background-color: rgb(107, 107, 112);
+    color: white;
+
+}
+
+.converter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+img{
+    max-width: 2rem;
+}
+
+select{
+    border-radius: 5px;
+    width: auto;
+    font-size: 1rem;
+}
+
+.converter i{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: rgb(235, 235, 245);
+}
+
+.converter p{
+    font-size: 1.1rem;
+}
+
+.fromto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+}
+
+.msg{
+    height: 2.5rem;
+    margin:2rem 0 1rem 0;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    
+}
+
+select{
+    background-color: rgb(107, 107, 112);
+    color: white;
+}
+
+
+#btn{
+    height: 3rem;
+    font-size:1.2rem;
+    background-color: #af4d98;
+    color: white;
+}
